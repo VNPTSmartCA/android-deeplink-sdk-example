@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VNPT SmartCA Partner App</string>
+    <string name="mapping_through_vnptsmartca">"Start connection"</string>
+    <string name="link_vnptsmartca">"Connect VNPT SmartCA"</string>
+    <string name="not_receive_info">"Not receive info"</string>
+    <string name="not_receive_info_err">"Not receive info, please try again"</string>
+    <string name="development_environment">Development Environment</string>
+    <string name="status_code">Status Code</string>
+    <string name="message">Message</string>
+    <string name="production_environment">Production Environment</string>
+    <string name="clientId">Client ID</string>
+    <string name="tranId">Transaction ID</string>
+</resources>
