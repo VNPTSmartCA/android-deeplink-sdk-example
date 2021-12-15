@@ -21,7 +21,7 @@ allprojects {
 }
 ```
 
-Add the dependency in level module:
+Add the dependency to your `build.gradle` in level module:
 
 ```gradle
 implementation 'com.github.VNPTSmartCA:android-sdk:1.0.3'
