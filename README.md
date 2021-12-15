@@ -71,7 +71,7 @@ private void requestMapping() {
 }
 ```
 
-***Step 5:*** Get callback from VNPT SmartCA app
+***Step 5:*** Get callback from VNPT SmartCA app in Activity just send connect event
 
 ```java
 @Override
