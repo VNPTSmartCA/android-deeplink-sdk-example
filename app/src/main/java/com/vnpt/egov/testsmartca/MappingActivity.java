@@ -42,21 +42,21 @@ public class MappingActivity extends AppCompatActivity {
     private final String clientId = "partnerId01";
 
     @SuppressLint("SetTextI18n")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mapping);
         ButterKnife.bind(this);
         /*
-        * You need choose environment to develop.
-        * Have 2 choices: DEVELOPMENT and PRODUCTION
-        * */
+         * You need choose environment to develop.
+         * Have 2 choices: DEVELOPMENT and PRODUCTION
+         * */
         Transaction.getInstance().setEnvironment(Transaction.ENVIRONMENT.PRODUCTION);
         tvEnvironment.setText("Production Environment");
         tvClientId.setText("Client ID: " + clientId);
         tvTranId.setText("Transaction ID: " + tranId);
     }
-
     private void requestMapping() {
         Map<String, String> eventValue = new HashMap<>();
         //Client Required
