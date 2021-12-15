@@ -1,6 +1,6 @@
-# android-sdk-example
+# Example source code to integrate with VNPTSmartCA Android SDK
 
-This is android project example to connect VNPTSmartCA SDK using Java
+To run the example project, clone repository, and `Sync Gradle`
 
 ## Requirements
 
