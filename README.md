@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/VNPTSmartCA/android-sdk.svg)](https://jitpack.io/#VNPTSmartCA/android-sdk)
+
 # Example source code to integrate with VNPTSmartCA Android SDK
 
 To run the example project, clone repository, and `Sync Gradle`
