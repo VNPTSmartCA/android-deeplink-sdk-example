@@ -51,7 +51,7 @@ protected void onCreate(Bundle savedInstanceState) {
     * Transaction.ENVIRONMENT.DEVELOPMENT will connect to dev/test server
     * Transaction.*ENVIRONMENT.PRODUCTION will connect to production server
     * */
-    Transaction.getInstance().setEnvironment(Transaction.ENVIRONMENT.PRODUCTION);
+    Transaction.getInstance().setEnvironment(Transaction.ENVIRONMENT.DEVELOPMENT);
 }
 ```
 
