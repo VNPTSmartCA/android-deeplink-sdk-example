@@ -90,4 +90,5 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.jakewharton:butterknife-runtime:10.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.VNPTSmartCA:android-sdk:1.0.4@aar" level="project" />
   </component>
+  <component name="TestModuleProperties" production-module="TestSmartCA.app.main" />
 </module>

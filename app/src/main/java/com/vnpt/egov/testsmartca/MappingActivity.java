@@ -38,7 +38,7 @@ public class MappingActivity extends AppCompatActivity {
     @BindView(R.id.btnMappingVNPTSmartCA)
     Button btnMappingVNPTSmartCA;
 
-    private final String tranId = "38d0a6fb-e014-4633-8f95-7d31616a1bce";
+    private final String tranId = "147bd326-7aa9-4ae8-9030-64d1be148899";
     private final String clientId = "partnerId01";
 
     @SuppressLint("SetTextI18n")
@@ -52,7 +52,7 @@ public class MappingActivity extends AppCompatActivity {
          * You need choose environment to develop.
          * Have 2 choices: DEVELOPMENT and PRODUCTION
          * */
-        Transaction.getInstance().setEnvironment(Transaction.ENVIRONMENT.PRODUCTION);
+        Transaction.getInstance().setEnvironment(Transaction.ENVIRONMENT.DEVELOPMENT);
         tvEnvironment.setText("Production Environment");
         tvClientId.setText("Client ID: " + clientId);
         tvTranId.setText("Transaction ID: " + tranId);

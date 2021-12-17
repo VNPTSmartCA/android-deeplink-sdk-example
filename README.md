@@ -26,7 +26,7 @@ allprojects {
 Add the dependency to your `build.gradle` in level module:
 
 ```gradle
-implementation 'com.github.VNPTSmartCA:android-sdk:1.0.3'
+implementation 'com.github.VNPTSmartCA:android-sdk:1.0.4'
 ```
 
 ***Step 2:*** Config in AndroidManifest.xml file
@@ -132,10 +132,6 @@ VNPT SmartCA Development Team
 ## Copyright©
 
 [Copyright (c) 2021 VNPTSmartCA](https://github.com/VNPTSmartCA/android-sdk-example/blob/master/LICENSE).
-
-## Version
-
-1.0.3
 
 ## Contact - Support
 
