@@ -1,6 +1,6 @@
 [![](https://jitpack.io/v/VNPTSmartCA/android-sdk.svg)](https://jitpack.io/#VNPTSmartCA/android-sdk)
 
-# Example source code to integrate with VNPTSmartCA Android SDK
+# Example source code to integrate with VNPT SmartCA Android SDK
 
 To run the example project, clone repository, and `Sync Gradle`
 
@@ -10,7 +10,7 @@ At a minimum, this SDK is designed to work with Android SDK 16.
 
 ### Installation
 
-To use the VNPT SmartCA Android SDK, add the compile dependency with the latest version.
+To use the VNPT SmartCA Android SDK, add the compiled dependency with the latest version.
 
 ***Step 1:*** Import SDK and add JitPack repository to your `build.gradle` in level project
 
@@ -55,7 +55,7 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-***Step 4:*** Init transaction required info as clientId and tranId, then connect to VNPT SmartCA App
+***Step 4:*** Initialize transaction required info as clientId and tranId, then connect to VNPT SmartCA App
 
 ```java
 
@@ -108,6 +108,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 | 6     | KAK Not found                              |
 | 7     | PIN Not found                              |
 | 8     | Token expired                              |
+| 30000 | Client not found in system                 |
 | 60000 | Credential not exist                       |
 | 60001 | Credential not match identity              |
 | 60002 | Credential no result                       |
@@ -131,7 +132,7 @@ VNPT SmartCA Development Team
 
 ## Copyright©
 
-[Copyright (c) 2021 VNPTSmartCA](https://github.com/VNPTSmartCA/android-sdk-example/blob/master/LICENSE).
+[Copyright (c) 2021 VNPT SmartCA](https://github.com/VNPTSmartCA/android-sdk-example/blob/master/LICENSE).
 
 ## Contact - Support
 
