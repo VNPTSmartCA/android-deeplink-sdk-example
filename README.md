@@ -93,7 +93,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 | Param    | Description                                                                                           |
 |----------|-------------------------------------------------------------------------------------------------------|
 | tranId   | When you request create a signature transaction to VNPT SmartCA System by API, you'll receive tranId. |
-| clientId | When you request integrate with VNPT SmartCA System. You'll receive a clientId.                       |
+| clientId | When you request integrate with VNPT SmartCA System. You'll receive a clientId through email.         |
 
 ***Response status code table***
 
